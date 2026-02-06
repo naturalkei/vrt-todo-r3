@@ -1,6 +1,6 @@
 # 🍃 Nook Todo List
 
-**깔끔하고 효율적인 할일 관리 앱** - Nintendo의 "Nook Inc." 디자인 감성으로 만든 모던 Todo 앱
+**A clean and efficient task management app** - a modern todo app inspired by Nintendo's "Nook Inc." design language
 
 [![Deploy](https://github.com/naturalkei/vrt-todo-r3/actions/workflows/deploy.yml/badge.svg)](https://github.com/naturalkei/vrt-todo-r3/actions/workflows/deploy.yml)
 [![CI](https://github.com/naturalkei/vrt-todo-r3/actions/workflows/ci.yml/badge.svg)](https://github.com/naturalkei/vrt-todo-r3/actions/workflows/ci.yml)
@@ -12,23 +12,23 @@
 ## ✨ Features
 
 ### Core Features
-- ✅ **CRUD Operations**: 할일 추가, 완료, 수정, 삭제
-- 🎨 **Nook Inc. Design**: 민트그린을 메인 컬러로 하는 깔끔한 디자인
-- 🔍 **Real-time Search**: 실시간 검색 기능
-- 📊 **View Modes**: All / Active / Completed 필터링
-- 🎯 **Priority Levels**: Low / Medium / High 우선순위
-- 📅 **Due Dates**: 마감일 설정 및 표시
-- 🔄 **Recurring Tasks**: Daily / Weekly / Monthly 반복 작업
-- 🎭 **Drag & Drop**: 직관적인 순서 변경
-- 💾 **IndexedDB**: 로컬 데이터 저장
-- 📤 **Import/Export**: JSON 형식 백업/복원
+- ✅ **CRUD Operations**: Add, complete, edit, and delete tasks
+- 🎨 **Nook Inc. Design**: Clean design with mint green as the primary color
+- 🔍 **Real-time Search**: Instant search as you type
+- 📊 **View Modes**: Filter by All / Active / Completed
+- 🎯 **Priority Levels**: Low / Medium / High priority
+- 📅 **Due Dates**: Set and display due dates
+- 🔄 **Recurring Tasks**: Daily / Weekly / Monthly recurring tasks
+- 🎭 **Drag & Drop**: Intuitive drag-and-drop reordering
+- 💾 **IndexedDB**: Local data persistence
+- 📤 **Import/Export**: Backup and restore in JSON format
 
 ### Advanced Features
-- 🕒 **Smart Date Display**: "Today", "Tomorrow" 등 자동 변환
-- 🔁 **Auto Recurrence**: 반복 작업 자동 갱신
-- 🎨 **Priority Colors**: 우선순위별 색상 구분
-- 📱 **Mobile First**: 모바일 최적화 UI
-- 🌐 **GitHub Pages**: 자동 배포
+- 🕒 **Smart Date Display**: Automatically shows labels like "Today" and "Tomorrow"
+- 🔁 **Auto Recurrence**: Automatically renews recurring tasks
+- 🎨 **Priority Colors**: Color-coded by priority level
+- 📱 **Mobile First**: Mobile-optimized UI
+- 🌐 **GitHub Pages**: Automated deployments
 
 ---
 
@@ -44,10 +44,10 @@
 ```
 
 ### Design Principles
-- 🍃 **Clean & Digital**: NookPhone 앱 스타일
-- 🎯 **Modern Flat Design**: 벡터 스타일, 고대비
-- 📱 **Touch-Friendly**: 44px+ 터치 영역
-- 🌊 **Smooth Transitions**: 부드러운 애니메이션
+- 🍃 **Clean & Digital**: NookPhone-style app UI
+- 🎯 **Modern Flat Design**: Vector-style, high-contrast visuals
+- 📱 **Touch-Friendly**: 44px+ touch targets
+- 🌊 **Smooth Transitions**: Gentle, smooth animations
 
 ### UI Components Preview
 ![Design Draft](./public/ui-design-draft.svg)
@@ -203,16 +203,16 @@ pnpm test:e2e
 ```
 
 ### Import/Export
-- **Export**: JSON 파일로 다운로드
-- **Import**: JSON 파일 업로드로 복원
+- **Export**: Download as a JSON file
+- **Import**: Restore from an uploaded JSON file
 
 ---
 
 ## 🎯 Code Style
 
 ### Clean Code Rules
-1. **No Semicolons**: ESLint 자동 제거
-2. **clsx Array Syntax**: 가독성 향상
+1. **No Semicolons**: Automatically removed by ESLint
+2. **clsx Array Syntax**: For improved readability
 ```tsx
 className={cn([
   'bg-white',
